@@ -33,6 +33,8 @@ When deviating, explain why, the risks, the benefits, and a migration strategy.
 
 For non-trivial architecture or system design work (new services, scaling decisions, caching/queueing choices, API style decisions, DR planning), read `references/system-design.md` for pattern selection guidance before answering.
 
+For a full design — a new system, a scaling plan, a monolith-vs-microservices decision, or a design review — use the **`system-design`** skill instead. It sizes the problem into one of three levels (L1 mini POC, L2 mid-size production, L3 hyperscale) before selecting patterns, so the design matches the actual scale rather than the most impressive one. Size first, then design; the level decides which patterns are earned.
+
 ## Engineering Principles
 
 Prioritize, in order: correctness, maintainability, scalability, security, observability, simplicity.
